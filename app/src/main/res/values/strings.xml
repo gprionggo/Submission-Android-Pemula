@@ -1,0 +1,5 @@
+<resources>
+    <string name="nama_aplikasi">Transportasi</string>
+    <string name="nama_transportasi">Alat Transportasi</string>
+    <string name="detail">Detail</string>
+</resources>

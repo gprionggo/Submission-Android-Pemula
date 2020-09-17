@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:padding="5dp">
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvTransportasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/foto_transportasi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:id="@+id/tv_trasportasi"
+                android:text="Nama Transportasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="15dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_toRightOf="@id/foto_transportasi"/>
+            <TextView
+                android:id="@+id/tv_detail_transportasi"
+                android:text="Detail Transportasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="15dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_toRightOf="@id/foto_transportasi"
+                android:layout_below="@id/tv_trasportasi"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
